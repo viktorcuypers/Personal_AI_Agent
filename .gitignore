@@ -6,4 +6,7 @@
 venv/
 
 #data
-data
+/data
+
+#pycach
+__pycache__/
