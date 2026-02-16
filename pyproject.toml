@@ -1,0 +1,23 @@
+[project]
+name = "agent-service"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "viktorcuypers",email = "viktor.cuypers@student.ucll.be"}
+]
+package-mode = false
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "fastapi (>=0.129.0,<0.130.0)",
+    "uvicorn (>=0.40.0,<0.41.0)",
+    "python-dotenv (>=1.2.1,<2.0.0)",
+    "openai (>=2.21.0,<3.0.0)",
+    "chromadb (>=1.5.0,<2.0.0)",
+    "pydantic (>=2.12.5,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

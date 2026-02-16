@@ -2,11 +2,10 @@
 # Secrets
 .env
 
-# venv
-venv/
-
 #data
 /data
+/data/unanswered.txt
 
 #pycach
 __pycache__/
+
